@@ -32,13 +32,13 @@ data_file ='makeSenseOfCensus.csv'
 Loading the data
 data = np.genfromtxt(data_file, delimiter=",", skip_header=1)
 
-# printing the data
+#  printing the data
 
 print("\nData: \n\n", data)
 Printing the type of data
 print("\nType of data: \n\n", type(data))
 Step 2 : Append the Data
-Append 'new_record' (given) to 'data' using "np.concatenate()"¶
+Append 'new_record' (given) to 'data' using "np.concatenate()"Â¶
 new_record=[[50, 9, 4, 1, 0, 0, 40, 0]]
 Step 3 : Check if it's a young country or old country
 Create a new array called 'age' by taking only age column(age is the column with index 0) of 'census' array.
